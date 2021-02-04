@@ -1,0 +1,82 @@
+/* desktop */
+@media screen and (min-width: 401px) {
+  .Work {
+    background-color: #695356;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 1000;
+    left: 100;
+  }
+
+  .Work p {
+    text-align: justify;
+    font-size: 25px;
+    padding-left: 2%;
+    color: #fbc9be;
+  }
+
+  .artscenetext {
+    padding-right: 50%;
+    padding-top: 15%;
+  }
+  .talariapptext {
+    padding-left: 50%;
+    padding-top: 2%;
+    padding-right: 2%;
+  }
+  .findertext {
+    padding-top: 2%;
+    padding-right: 50%;
+  }
+  .Work a {
+    color: #fbc9be;
+  }
+  .Projects img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
+  .wavy {
+    padding-top: 5%;
+    max-width: 100%;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 401px) {
+  .Work {
+    background-color: #695356;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 1000;
+    left: 0;
+  }
+
+  .Work p {
+    text-align: justify;
+    font-size: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15%;
+    color: #fbc9be;
+  }
+
+  .Work a {
+    color: #fbc9be;
+  }
+
+  .Projects {
+    background-color: #695356;
+  }
+  .Projects img {
+    max-width: 100%;
+  }
+  .wavy {
+    padding-top: 5%;
+    max-width: 100%;
+  }
+}
