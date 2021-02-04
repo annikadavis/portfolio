@@ -1,0 +1,64 @@
+/* desktop */
+@media screen and (min-width: 400px) {
+  .Homepage {
+    background-color: #fbc9be;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .HomepageDesc {
+    text-align: justify;
+    font-size: 6vw;
+    text-indent: 2em;
+    padding-left: 2%;
+    padding-right: 2%;
+    bottom: 5px;
+    position: fixed;
+    color: #255f63;
+  }
+
+  a {
+    color: #255f63;
+  }
+
+  .background-pink {
+    background-color: #fbc9be;
+  }
+
+  .background-purple {
+    background-color: #695356;
+  }
+
+  .background-peach {
+    background-color: #db7b65;
+  }
+}
+/* mobile */
+@media screen and (max-width: 400px) {
+  .Homepage {
+    background-color: #fbc9be;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .HomepageDesc {
+    text-align: justify;
+    font-size: 10vw;
+    text-indent: 2em;
+    padding-left: 5%;
+    padding-right: 5%;
+    bottom: 10px;
+    position: fixed;
+    color: #255f63;
+  }
+
+  a {
+    color: #255f63;
+  }
+}

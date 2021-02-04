@@ -1,0 +1,80 @@
+/* desktop */
+@media screen and (min-width: 400px) {
+  .Hamburger {
+    display: none;
+  }
+
+  body {
+    font-family: "Goudy Bookletter 1911";
+    background: #fbc9be;
+  }
+
+  .Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 1vh;
+    font-size: 4vh;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
+  .Navbar a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 4vh;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+  .Navbar a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+  }
+
+  .Navbar a:active {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+  }
+
+  .NavbarLeft {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .NavbarRight {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+  }
+}
+/* mobile */
+@media screen and (max-width: 400px) {
+  body {
+    font-family: "Goudy Bookletter 1911";
+    background: #fbc9be;
+  }
+
+  .Navbar {
+    display: none;
+  }
+
+  .MobileMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5vh;
+    margin-top: 20%;
+  }
+
+  .MobileMenu a {
+    font-size: 5vh;
+    text-decoration: none;
+  }
+
+  .Hamburger {
+    margin: 10px;
+    color: "#255f63";
+  }
+}
