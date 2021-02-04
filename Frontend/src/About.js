@@ -34,13 +34,21 @@ export default function About() {
           currently studying German.
           <br />
           Please{" "}
-          <a href={resume} target="_blank">
+          <a
+            href="https://drive.google.com/file/d/1DYm40-HHkWiQHnTT6APM_GGP4csS6rgk/view?usp=sharing"
+            target="_blank"
+          >
             download
           </a>{" "}
           my CV for more information.
+          <br />
           <br />I can’t wait to work with you!
         </p>
       </div>
     </div>
   );
 }
+
+// Left to do:
+// hamburger menu functionality
+// finish back end
