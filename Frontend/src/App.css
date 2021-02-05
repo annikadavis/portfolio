@@ -31,6 +31,8 @@
   .Navbar a:hover {
     text-decoration-line: underline;
     text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
   }
 
   .Navbar a:active {

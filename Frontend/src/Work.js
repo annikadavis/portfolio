@@ -9,6 +9,7 @@ import artscene2 from "./images/artscene-2.png";
 import artscene3 from "./images/artscene-3.png";
 import artscene4 from "./images/artscene-4.png";
 import artscene6 from "./images/artscene-6.png";
+import artscene7 from "./images/artscene-7.png";
 import talariapp1 from "./images/talariapp-1.png";
 import talariapp2 from "./images/talariapp-2.png";
 import talariapp3 from "./images/talariapp-3.png";
@@ -50,6 +51,9 @@ export default function About() {
         </div>
         <div>
           <img src={artscene6} alt="art scene 6" />
+        </div>
+        <div>
+          <img src={artscene7} alt="art scene 7" width={"500px"} />
         </div>
       </div>
       <div>
