@@ -12,10 +12,10 @@
   .HomepageDesc {
     text-align: justify;
     font-size: 6vw;
-    text-indent: 2em;
-    padding-left: 2%;
-    padding-right: 2%;
-    bottom: 5px;
+    text-indent: 3em;
+    padding-left: 3%;
+    padding-right: 3%;
+    bottom: 15px;
     position: fixed;
     color: #255f63;
   }
