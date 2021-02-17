@@ -1,9 +1,11 @@
 /* desktop */
 @media screen and (min-width: 400px) {
-  .Hamburger {
+  .mobile {
     display: none;
   }
-
+  .mobileicons {
+    display: none;
+  }
   body {
     font-family: "Goudy Bookletter 1911";
     background: #fbc9be;
@@ -19,26 +21,54 @@
     position: sticky;
   }
 
-  .Navbar a {
+  .NavbarLeft a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 4vh;
     text-decoration: none;
     margin-left: 20px;
+    background: linear-gradient(
+      to bottom,
+      var(--mainColor) 0%,
+      var(--mainColor) 100%
+    );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
   }
 
-  .Navbar a:hover {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 2px;
-    text-decoration-skip-ink: none;
+  .NavbarLeftBlue a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 4vh;
+    text-decoration: none;
+    margin-left: 20px;
+    background: linear-gradient(
+      to bottom,
+      var(--mainColor) 0%,
+      var(--mainColor) 100%
+    );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
   }
 
-  .Navbar a:active {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
+  .NavbarLeft a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'><style type='text/css'>.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}</style><path fill='none' stroke='%23fbc9be' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/></svg>");
+    background-position: 0 100%;
+    background-size: auto 5px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+  }
+
+  .NavbarLeftBlue a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'><style type='text/css'>.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}</style><path fill='none' stroke='%23255f63' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/></svg>");
+    background-position: 0 100%;
+    background-size: auto 5px;
+    background-repeat: repeat-x;
+    text-decoration: none;
   }
 
   .NavbarLeft {
@@ -46,38 +76,60 @@
     justify-content: flex-start;
   }
 
+  .NavbarLeftBlue {
+    display: flex;
+    justify-content: flex-start;
+  }
+
   .NavbarRight {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
-    height: 40px;
+  }
+  .NavbarRight img {
+    height: 45px;
+    padding-right: 20px;
+    opacity: 0.8;
+  }
+
+  .NavbarRight img:hover {
+    opacity: 1;
   }
 }
 /* mobile */
 @media screen and (max-width: 400px) {
+  .Navbar {
+    display: none;
+  }
+
   body {
     font-family: "Goudy Bookletter 1911";
     background: #fbc9be;
   }
 
-  .Navbar {
-    display: none;
-  }
-
-  .MobileMenu {
+  .mobile {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 5vh;
-    margin-top: 20%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 3vh;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 
-  .MobileMenu a {
-    font-size: 5vh;
+  .mobile a {
     text-decoration: none;
   }
 
-  .Hamburger {
-    margin: 10px;
-    color: "#255f63";
+  .mobileicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .mobileicons img {
+    height: 55px;
   }
 }

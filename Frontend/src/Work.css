@@ -12,22 +12,42 @@
   .Work p {
     text-align: justify;
     font-size: 25px;
-    padding-left: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
     color: #fbc9be;
   }
 
+  .Work p a {
+    background: linear-gradient(
+      to bottom,
+      var(--mainColor) 0%,
+      var(--mainColor) 100%
+    );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+  }
+
+  .Work p a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'><style type='text/css'>.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}</style><path fill='none' stroke='%23fbc9be' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/></svg>");
+    background-position: 0 100%;
+    background-size: auto 5px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+  }
+
+  .inutext {
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
   .artscenetext {
-    padding-right: 50%;
-    padding-top: 15%;
+    padding-top: 2%;
   }
   .talariapptext {
-    padding-left: 50%;
     padding-top: 2%;
-    padding-right: 2%;
   }
   .findertext {
     padding-top: 2%;
-    padding-right: 50%;
   }
   .Work a {
     color: #fbc9be;
@@ -42,6 +62,10 @@
   .wavy {
     padding-top: 5%;
     max-width: 100%;
+  }
+  .ImageSlider {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -61,8 +85,20 @@
     font-size: 15px;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 15%;
     color: #fbc9be;
+  }
+
+  .inutext {
+    padding-top: 15%;
+  }
+  .artscenetext {
+    padding-top: 2%;
+  }
+  .talariapptext {
+    padding-top: 2%;
+  }
+  .findertext {
+    padding-top: 2%;
   }
 
   .Work a {
@@ -78,5 +114,9 @@
   .wavy {
     padding-top: 5%;
     max-width: 100%;
+  }
+  .ImageSlider {
+    display: flex;
+    justify-content: center;
   }
 }

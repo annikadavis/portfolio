@@ -1,23 +1,18 @@
 import "./About.css";
-import HamburgerMenu from "./Hamburger";
 import NavbarPink from "./NavbarPink";
-import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import annika from "./images/annika.jpg";
-import resume from "./images/annika-resume-jan21.pdf";
+import MobileMenu, { MobileIconsPink } from "./MobileMenu";
 
 export default function About() {
   return (
     <div className="About">
       <NavbarPink />
-      <div className="Hamburger">
-        <Link to="/menu">
-          <HamburgerMenu />
-        </Link>
-      </div>
       <div>
+        <MobileMenu />
         <div>
           <img className="annika" src={annika} alt="annika" />
         </div>
+        <MobileIconsPink />
         <p>
           Hi, I’m Annika. I’m a junior full stack web developer based in Berlin,
           with a passion for art and technology. I believe in technology as a
@@ -35,7 +30,7 @@ export default function About() {
           <br />
           Please{" "}
           <a
-            href="https://drive.google.com/file/d/1DYm40-HHkWiQHnTT6APM_GGP4csS6rgk/view?usp=sharing"
+            href="https://drive.google.com/file/d/1mLaxH1553wOuCo0Rdks-YtBzAbdK4N1-/view?usp=sharing"
             target="_blank"
           >
             download
@@ -48,7 +43,3 @@ export default function About() {
     </div>
   );
 }
-
-// Left to do:
-// hamburger menu functionality
-// finish back end

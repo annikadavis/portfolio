@@ -1,7 +1,8 @@
 /* desktop */
+
 @media screen and (min-width: 601px) {
   .About {
-    background-color: #db7b65;
+    background-color: #d66950;
     position: absolute;
     top: 0;
     right: 0;
@@ -17,15 +18,22 @@
     padding-right: 2%;
     padding-bottom: 2%;
     color: #fbc9be;
-    background-color: #db7b65;
-  }
-
-  .About p a {
-    text-decoration-style: wavy;
+    background-color: #d66950;
   }
 
   .About a {
     color: #fbc9be;
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+  }
+
+  .About p a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'><style type='text/css'>.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}</style><path fill='none' stroke='%23fbc9be' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/></svg>");
+    background-position: 0 100%;
+    background-size: auto 5px;
+    background-repeat: repeat-x;
+    text-decoration: none;
   }
 
   .annika {
@@ -40,7 +48,7 @@
 /* mobile */
 @media screen and (max-width: 400px) {
   .About {
-    background-color: #db7b65;
+    background-color: #d66950;
     position: absolute;
     top: 0;
     right: 0;
@@ -56,11 +64,7 @@
     padding-bottom: 5%;
     bottom: 10px;
     color: #fbc9be;
-    background-color: #db7b65;
-  }
-
-  .About p a {
-    text-decoration-style: wavy;
+    background-color: #d66950;
   }
 
   .About a {

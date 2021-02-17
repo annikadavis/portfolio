@@ -16,7 +16,7 @@ export default function NavbarBlue() {
 
   return (
     <div className="Navbar">
-      <div className="NavbarLeft">
+      <div className="NavbarLeftBlue">
         <div>
           <Link to="./">Annika Davis</Link>
         </div>
